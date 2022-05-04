@@ -1,0 +1,70 @@
+.top-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div{
+    display: flex;
+}
+.div1{
+    width: 50vw;
+    padding-left: 5%;
+}
+.div2{
+    width: 50vw;
+    padding-left: 8%;
+}
+.div2 p input{
+    font-size: large;
+}
+img{
+    width: 5%;
+    height: 5%;
+}
+#name{
+    width: 25%;
+}
+#email{
+    width: 25%;
+}
+#message{
+    width: 50%;
+}
+#button{
+    padding-left: 40%;
+    
+    color: white;
+}
+.table-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+    height: 65%;
+}
+table th{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 1% 0% 1% 0%;
+    border: 1px solid white;
+}
+table:nth-child(2n){
+    background-color: beige;
+}
+tr{
+    /* height: ; */
+
+}
+td{
+    border: 1px solid gray;
+    font-size: medium;
+    padding-right: 10%;
+    height: 120%;
+}
+#odd{
+    background-color: beige;
+}
